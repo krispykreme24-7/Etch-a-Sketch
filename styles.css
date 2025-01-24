@@ -1,0 +1,20 @@
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridItem{
+    flex: 1 0 calc(100%/16);
+    aspect-ratio: 1;
+}
+
+div.gridItem:hover{
+    background-color: green;
+    color: brown;
+    transition-delay: 1;
+}
+
+div{
+    color: blue;
+}
+
